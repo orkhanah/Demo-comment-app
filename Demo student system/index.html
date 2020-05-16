@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.min.css">
+
+    <script src="https://kit.fontawesome.com/1154e1d6ee.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="offset-3 col-6 pt-3">
+                <div class="card">
+                    <div class="card-header">
+                        Şərhlər
+                    </div>
+                    <div class="card-body">
+                        <form class="form-inline my-2 py-1 my-lg-0 d-flex flex-nowrap" name="add">
+                            <input id="profileName" class="form-control mr-sm-2 w-100" type="text" placeholder="Nickname daxil edin" aria-label="Search">
+                            <input id="profileComment" class="form-control mr-sm-2 w-100" type="text" placeholder="Şərh daxil edin" aria-label="Search">
+                            <input id="profileData" type="time">
+                            <button id="addPro" class="btn btn-outline-success my-2 my-sm-0" style="min-width: 90px;" type="button">Əlavə et</button>
+                        </form>
+                        <ul id="pro-list" class="list-group list-group-flush">
+
+                        </ul>
+                    </div>
+                    <div id="pro-footer" class="card-footer text-muted d-flex">
+                        <p class="status w-100">Şərh yoxdur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/students.js"></script>
+</body>
+
+</html>
